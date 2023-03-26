@@ -5,11 +5,11 @@
  * description: prints the alphabet
  * Return: always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char n;
 
-	for (n = 97; n <= 122; n++)
+	for (n = 'a'; n <= 'z'; n++)
 	{
 		_putchar(n);
 	}
